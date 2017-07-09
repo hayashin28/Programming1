@@ -19,15 +19,15 @@ public class MyFirstApple extends Applet {
 		g.drawOval(10, 130, 50, 100);
 
 		//サンプルプログラム（楕円の塗りつぶし）
-		g.fillOval(60, 10, 50, 100);//塗りつぶした楕円を描画
+		g.fillOval(60, 10, 50, 100);	//塗りつぶした楕円を描画
 
 		//サンプルプログラム（色を指定する）
-		g.setColor(Color.blue);//色を指定
-		g.drawLine(50, 30, 120, 60);//線を描画
-		g.setColor(Color.red);//色を指定
-		g.drawOval(50, 100, 120 , 60);//楕円を描画
-		g.setColor(Color.green);//色を指定
-		g.fillOval(50, 160, 20, 30);//塗りつぶした楕円を描画
-		g.drawOval(150, 160, 20, 30);//楕円を描画
+		g.setColor(Color.blue);		 	//色を指定
+		g.drawLine(50, 30, 120, 60); 	//線を描画
+		g.setColor(Color.red);		 	//色を指定
+		g.drawOval(50, 100, 120 , 60);	//楕円を描画
+		g.setColor(Color.green);		//色を指定
+		g.fillOval(50, 160, 20, 30);	//塗りつぶした楕円を描画
+		g.drawOval(150, 160, 20, 30);	//楕円を描画
 	}
 }

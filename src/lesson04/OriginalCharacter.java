@@ -5,6 +5,9 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class OriginalCharacter extends Applet {
+
+	private static final long serialVersionUID = 1L;
+
 	@Override
 	public void paint(Graphics g) {
 
@@ -18,8 +21,8 @@ public class OriginalCharacter extends Applet {
 		g.setColor(Color.BLACK);
 
 		/*鼻の描画*/
-		g.drawLine(80,80, 90, 70);//直線の描画，始点(80,80)，終点(90,70)
-		g.drawLine(70,90, 100, 90);//直線の描画，始点(70,90)，終点(100,90)
+		g.drawLine(80,80, 90, 70);  //直線の描画，始点(80,80)，終点(90,70)
+		g.drawLine(70,90, 100, 90); //直線の描画，始点(70,90)，終点(100,90)
 
 	}
 }

@@ -16,7 +16,7 @@ public class DisitalClockApplet extends Applet {
 		sec = cal.get(Calendar.SECOND);	//秒
 		g.setFont(new Font("SansSerif", Font.PLAIN, 60));
 		g.drawString(Integer.toString(hou) + "時", 40, 50);
-		g.drawString(Integer.toString(min) + "分", 140, 50);
-		g.drawString(Integer.toString(sec) + "秒", 270, 50);
+		g.drawString(Integer.toString(min) + "分", 170, 50);
+		g.drawString(Integer.toString(sec) + "秒", 300, 50);
 	}
 }

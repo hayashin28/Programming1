@@ -9,6 +9,9 @@ import java.awt.Graphics;
  *
  */
 public class MullerLyer_IllusionFigure extends Applet {
+
+	private static final long serialVersionUID = 1L;
+
 	@Override
 	public void paint(Graphics g) {
 
